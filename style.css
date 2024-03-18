@@ -40,3 +40,12 @@
     display: flex;
     align-items: center
 }
+.our-products-products {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+}
