@@ -40,24 +40,31 @@ body {
     align-items: center
 }
 main {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-    background-color: var(--color-tertiary);
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    color: var(--text-gray);
-}
-
-main p {
-    margin-right: 45%;
-}
+    margin: 5px;
+    }
+    
 main img {
     width: 50%;
     height: 50%;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
+}
+.products {
+    
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+.products h2{
+    color: var(--color-primary);
+}
+.products p {
+    padding: 1rem;
+    color: var(--color-quaternary);
+    margin-right: 650px;
+}
+.products img {
+    height: 100%; 
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
 }
 footer {
     background-color: var(--color-accent);
